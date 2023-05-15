@@ -47,7 +47,7 @@ export const ColorModeContextProvider: React.FC<PropsWithChildren> = ({
         mode,
       }}
     >
-      <ThemeProvider theme={mode === "light" ? LightTheme : DarkTheme}>
+      <ThemeProvider theme={mode === "light" ? LightTheme : LightTheme}>
         {children}
       </ThemeProvider>
     </ColorModeContext.Provider>
