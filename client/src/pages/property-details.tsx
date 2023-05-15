@@ -172,7 +172,7 @@ const PropertyDetails = () => {
                                     fontWeight={600}
                                     color="#11142D"
                                 >
-                                    {propertyDetails.creator.name}
+                                    John Doe
                                 </Typography>
                                 <Typography
                                     mt="5px"
